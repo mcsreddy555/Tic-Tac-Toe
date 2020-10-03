@@ -1,4 +1,5 @@
 {
+  "home":"https://mcsreddy555.guthub.io/Tic-Tac-Toe.com",
   "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy":"npm run deploy",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
